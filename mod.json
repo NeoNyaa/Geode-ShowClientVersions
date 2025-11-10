@@ -1,51 +1,49 @@
 {
-	"geode": "4.0.1",
-	"gd": {
-		"win": "2.2074",
-		"android": "2.2074",
-		"mac": "2.2074",
-		"ios": "2.2074"
-	},
-	"id": "neonyaa.showgameversion",
-	"name": "Show Game Version",
-	"version": "v1.0.6",
-	"developer": "NeoNyaa",
-	"description": "Shows the GD version number on the main menu",
-	"tags": ["universal", "enhancement", "interface", "utility"],
-	"links": {
-		"source": "https://github.com/NeoNyaa/Geode-ShowGameVersion",
-		"homepage": "https://github.com/NeoNyaa/Geode-ShowGameVersion"
-	},
-	"settings": {
-		"version-position": {
-			"type": "string",
-			"name": "Version Number Position",
-			"description": "Set the position of the GD version number on the main menu",
-			"default": "Bottom Left",
-			"one-of": ["Top Left", "Top Right", "Bottom Left", "Bottom Right"]
-		},
-		"version-opacity": {
-			"type": "float",
-			"name": "Version Number Opacity",
-			"description": "Set the opacity of the GD version number on the main menu",
-			"default": 127.5,
-			"min": 0,
-			"max": 255,
-			"control": {
-				"arrows": true,
-				"arrow-step": 0.1,
-				"big-arrows": true,
-				"big-arrow-step": 1,
-				"slider": true,
-				"slider-step": 5,
-				"input": true
-			}
-		},
-		"debug-enabled": {
-			"type": "bool",
-			"name": "Enable Debug Logging",
-			"description": "Just prints some values to console because I didnt want to comment out the lines.",
-			"default": false
-		}
-	}
+  "geode": "4.9.0",
+  "gd": {
+    "win": "2.2074",
+    "android": "2.2074"
+  },
+  "id": "neonyaa.showgameversion",
+  "name": "Show Game Version",
+  "version": "v1.1.0",
+  "developer": "NeoNyaa",
+  "description": "Shows the GD version number on the main menu",
+  "tags": ["universal", "enhancement", "interface", "utility"],
+  "links": {
+    "source": "https://github.com/NeoNyaa/Geode-ShowGameVersion",
+    "homepage": "https://github.com/NeoNyaa/Geode-ShowGameVersion"
+  },
+  "settings": {
+    "version-position": {
+      "type": "string",
+      "name": "Version Number Position",
+      "description": "Set the position of the GD version number on the main menu",
+      "default": "Bottom Left",
+      "one-of": ["Top Left", "Top Right", "Bottom Left", "Bottom Right"]
+    },
+    "version-opacity": {
+      "type": "float",
+      "name": "Version Number Opacity",
+      "description": "Set the opacity of the GD version number on the main menu",
+      "default": 127.5,
+      "min": 0,
+      "max": 255,
+      "control": {
+        "arrows": true,
+        "arrow-step": 0.1,
+        "big-arrows": true,
+        "big-arrow-step": 1,
+        "slider": true,
+        "slider-step": 5,
+        "input": true
+      }
+    },
+    "debug-enabled": {
+      "type": "bool",
+      "name": "Enable Debug Logging",
+      "description": "Logging must be set to info in geode settings.",
+      "default": false
+    }
+  }
 }
