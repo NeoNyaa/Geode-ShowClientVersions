@@ -7,7 +7,7 @@
   },
   "id": "neonyaa.showgameversion",
   "name": "Show Client Versions",
-  "version": "v1.3.0",
+  "version": "v1.3.1",
   "description": "Display GD & Geode versions on the main menu",
 	"developers": ["NeoNyaa", "NeoFur"],
   "links": {

@@ -1,3 +1,9 @@
+# v1.3.1
+- Updated the name of the mod
+- Added my alias to the developers
+- Updated the description of the mode
+- Renamed the source repo
+
 # v1.3.0
 - Rewrote most of the code to make adding features easier
 - Added Cocos2d version number as a number
