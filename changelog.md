@@ -1,3 +1,6 @@
+# v1.3.3
+- Added iOS as a compilation target
+
 # v1.3.2
 - Changed the default location for the version strings to top right
 

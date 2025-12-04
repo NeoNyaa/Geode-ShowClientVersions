@@ -3,11 +3,12 @@
   "gd": {
     "win": "2.2074",
     "android": "2.2074",
-    "mac": "2.2074"
+    "mac": "2.2074",
+    "ios": "2.2074"
   },
   "id": "neonyaa.showgameversion",
   "name": "Show Client Versions",
-  "version": "v1.3.2",
+  "version": "v1.3.3",
   "description": "Display GD & Geode versions on the main menu",
 	"developers": ["NeoNyaa", "NeoFur"],
   "links": {
