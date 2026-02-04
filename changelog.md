@@ -1,3 +1,6 @@
+# v1.3.4
+- Updated for Geode v5 support
+
 # v1.3.3
 - Added iOS as a compilation target
 

@@ -48,8 +48,7 @@ build-*/
 *.sublime-workspace
 
 # ILY vscode
-.vscode/*
-!.vscode/tasks.json
+**/.vscode
 
 # Local History for Visual Studio Code
 .history/
