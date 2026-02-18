@@ -1,3 +1,6 @@
+# v1.3.5
+- Bumped Geode version and sending to mod index
+
 # v1.3.4
 - Updated for Geode v5 support
 
