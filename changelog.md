@@ -1,3 +1,6 @@
+# v1.3.6
+- Bumped Geode version just in case things went wrong on the previous build
+
 # v1.3.5
 - Bumped Geode version and sending to mod index
 
