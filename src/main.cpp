@@ -1,13 +1,14 @@
 #include <unordered_map>
 #include <Geode/Geode.hpp>
 #include <Geode/modify/MenuLayer.hpp>
+#include <Geode/ui/Label.hpp>
 
 using namespace geode::prelude;
 
 struct labelPosition {
 	float posX, posY;
 	float anchorX, anchorY;
-	CCTextAlignment align;
+	geode::Label::Alignment align;
 };
 
 class $modify(MenuLayer) {
@@ -41,7 +42,7 @@ class $modify(MenuLayer) {
 			versionStrings[2] = std::string("Cocos2d: v") + cocos2d::cocos2dVersion();
 		}
 
-		// Concatenate into single string with seperators between enabled valued
+		// Concatenate into single string with seperators between enabled values
 		for (auto &verString : versionStrings) {
 			if (!verString.empty()) {
 				if (!labelString.empty()) {
@@ -53,14 +54,14 @@ class $modify(MenuLayer) {
 
 		// Map of lable positions
 		std::unordered_map<std::string, labelPosition> layouts = {
-				{"Top Left", {2, menuHeight, 0, 1, kCCTextAlignmentLeft}},
-				{"Top Right", {menuWidth, menuHeight, 1, 1, kCCTextAlignmentRight}},
-				{"Bottom Left", {2, 2, 0, 0, kCCTextAlignmentLeft}},
-				{"Bottom Right", {menuWidth, 2, 1, 0, kCCTextAlignmentRight}},
+				{"Top Left", {2, menuHeight, 0, 1, geode::Label::Alignment::Left}},
+				{"Top Right", {menuWidth, menuHeight, 1, 1, geode::Label::Alignment::Right}},
+				{"Bottom Left", {2, 2, 0, 0, geode::Label::Alignment::Left}},
+				{"Bottom Right", {menuWidth, 2, 1, 0, geode::Label::Alignment::Right}},
 		};
 
 		// Make, position, align, style, then add the label
-		auto labelItem = CCLabelBMFont::create(labelString.c_str(), "bigFont.fnt");
+		geode::Label* labelItem = geode::Label::create(labelString.c_str(), "bigFont.fnt");
 		auto labelOpts = layouts[confVersionsPosition];
 		labelItem->setPosition(labelOpts.posX, labelOpts.posY);
 		labelItem->setAnchorPoint({labelOpts.anchorX, labelOpts.anchorY});

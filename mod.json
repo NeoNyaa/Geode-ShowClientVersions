@@ -1,16 +1,16 @@
 {
-  "geode": "5.1.0",
+  "geode": "6.0.0-alpha.2",
   "gd": {
-    "win": "2.2081",
-    "android": "2.2081",
-    "mac": "2.2081",
-    "ios": "2.2081"
+    "win": "2.2091",
+    "android": "2.2091",
+    "mac": "2.2091",
+    "ios": "2.2091"
   },
   "id": "neonyaa.showgameversion",
   "name": "Show Client Versions",
-  "version": "v1.3.6",
+  "version": "v1.3.7",
   "description": "Display GD & Geode versions on the main menu",
-	"developers": ["NeoNyaa", "NeoFur"],
+	"developers": ["NeoFur"],
   "links": {
 		"source": "https://github.com/NeoNyaa/Geode-ShowClientVersions",
     "homepage": "https://github.com/NeoNyaa/Geode-ShowClientVersions"
