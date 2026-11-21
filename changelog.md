@@ -1,3 +1,9 @@
+# v1.3.8
+- Recompiled on the beta, shouldnt need more rebuilds until more breaking changes
+
+# v1.3.6
+- Fixed for GD 2.2091
+
 # v1.3.6
 - Bumped Geode version just in case things went wrong on the previous build
 
